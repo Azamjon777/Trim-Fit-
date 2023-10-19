@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/dataFragment">
+
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="proleag.iyl.trimfitapp.presentation.fragments.DataFragment"
+        android:label="Data Fragment"
+        tools:layout="@layout/fragment_data" />
+    <activity
+        android:id="@+id/profileActivity"
+        android:name="proleag.iyl.trimfitapp.presentation.ProfileActivity"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
+
+    <!--<fragment
+        android:id="@+id/profileFragment"
+        android:name="proleag.iyl.trimfitapp.presentation.fragments.ProfileFragment"
+        android:label="Profile Fragment"
+        tools:layout="@layout/fragment_profile" />-->
+</navigation>
